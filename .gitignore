@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# PyInstaller / 本地打包产物（体积大，不上传）
+build/
+dist/
+release_build/
+release_dist/
+发布/
+*.spec
+
+# 本地词库与错误统计
+记录文件/
+**/记录文件/*.md
+**/记录文件/*.errors.json
+!**/记录文件/说明.txt
+
+# 系统杂项
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.zip
