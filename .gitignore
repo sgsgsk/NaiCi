@@ -7,12 +7,11 @@ venv/
 .env
 .env.*
 
-# PyInstaller / 本地打包产物（体积大，不上传）
+# PyInstaller 临时目录（成品 exe 要提交，方便直接拉取使用）
 build/
 dist/
 release_build/
 release_dist/
-发布/
 *.spec
 
 # 本地词库与错误统计
